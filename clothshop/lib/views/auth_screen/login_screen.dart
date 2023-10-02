@@ -1,12 +1,12 @@
 import 'package:clothshop/consts/consts.dart';
 import 'package:clothshop/consts/lists.dart';
 import 'package:clothshop/views/auth_screen/signup_screen.dart';
+import 'package:clothshop/views/home_screen/home_screen.dart';
 import 'package:clothshop/widgets_common/app_logo_widget.dart';
 import 'package:clothshop/widgets_common/bg_widget.dart';
 import 'package:clothshop/widgets_common/custom_text_field.dart';
 import 'package:clothshop/widgets_common/our_button.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:get/route_manager.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -35,13 +35,12 @@ class LoginScreen extends StatelessWidget {
               ),
               5.heightBox,
               ourButton(
-                      color: redColor,
-                      title: login,
-                      textColor: whiteColor,
-                      onPress: () {})
-                  .box
-                  .width(context.screenWidth - 50)
-                  .make(),
+                  color: redColor,
+                  title: login,
+                  textColor: whiteColor,
+                  onPress: () {
+                    Get.to(() => const HomeScreen());
+                  }).box.width(context.screenWidth - 50).make(),
               5.heightBox,
               createNewAccount.text.color(fontGrey).make(),
               5.heightBox,

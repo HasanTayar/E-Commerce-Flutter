@@ -16,3 +16,7 @@ const nameHint = "Hasan Diab";
 const privacyPolicy = "Privacy Policy";
 const termAndCond = "Terms and Conditions";
 const alreadyHavingAccount = "Already have an account? ";
+const home = "Home",
+    categories = "Categories",
+    cart = "Cart",
+    account = "Account";
