@@ -1,5 +1,5 @@
-import 'package:clothshop/consts/strings.dart';
-import 'package:clothshop/consts/styles.dart';
+import 'package:clothshop/consts/consts.dart';
+
 import 'package:clothshop/views/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -17,11 +17,11 @@ class MyApp extends StatelessWidget {
         title: appname,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          scaffoldBackgroundColor: Colors.transparent,
-          appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
-          fontFamily: regular,
-          useMaterial3: true,
-        ),
+            scaffoldBackgroundColor: Colors.transparent,
+            appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
+            fontFamily: regular,
+            useMaterial3: true,
+            iconTheme: const IconThemeData(color: darkFontGrey)),
         home: const SplashScreen());
   }
 }

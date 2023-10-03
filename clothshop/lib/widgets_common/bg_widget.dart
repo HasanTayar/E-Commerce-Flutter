@@ -1,7 +1,7 @@
 import 'package:clothshop/consts/images.dart';
 import 'package:flutter/material.dart';
 
-Widget bgWidget(Widget? child) {
+Widget bgWidget({Widget? child}) {
   return Container(
     decoration: const BoxDecoration(
         image: DecorationImage(

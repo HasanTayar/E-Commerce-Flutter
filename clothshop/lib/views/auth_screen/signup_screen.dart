@@ -17,7 +17,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
   bool? isCheck = false;
   @override
   Widget build(BuildContext context) {
-    return bgWidget(Scaffold(
+    return bgWidget(
+        child: Scaffold(
       resizeToAvoidBottomInset: false,
       body: Center(
         child: Column(children: [

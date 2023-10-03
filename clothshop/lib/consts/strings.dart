@@ -34,3 +34,13 @@ const serachAnyThing = "Search anything...",
     topCategories = "Top Categories",
     featuredProudcts = "Featured Proudcts ",
     featuredCategories = "Featured Categories ";
+
+const weomenClothing = "Women Clothing",
+    menClothingFashion = "Men Clothing & Fashion ",
+    compAcsses = "Computer & Accessories",
+    autoMobile = "Automobile",
+    kidToys = "Kids & Toys",
+    sport = "Sports",
+    jewelery = "Jewelery",
+    cellPhone = "Cellphone & Tab",
+    furniture = "Furniture";
