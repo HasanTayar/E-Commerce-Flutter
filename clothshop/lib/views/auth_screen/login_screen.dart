@@ -1,7 +1,7 @@
 import 'package:clothshop/consts/consts.dart';
 import 'package:clothshop/consts/lists.dart';
 import 'package:clothshop/views/auth_screen/signup_screen.dart';
-import 'package:clothshop/views/home_screen/home_screen.dart';
+import 'package:clothshop/views/home_screen/home.dart';
 import 'package:clothshop/widgets_common/app_logo_widget.dart';
 import 'package:clothshop/widgets_common/bg_widget.dart';
 import 'package:clothshop/widgets_common/custom_text_field.dart';
@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
                   title: login,
                   textColor: whiteColor,
                   onPress: () {
-                    Get.to(() => const HomeScreen());
+                    Get.to(() => const Home());
                   }).box.width(context.screenWidth - 50).make(),
               5.heightBox,
               createNewAccount.text.color(fontGrey).make(),
