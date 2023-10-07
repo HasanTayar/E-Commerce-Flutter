@@ -1,5 +1,6 @@
 import 'package:clothshop/consts/consts.dart';
 import 'package:clothshop/controllers/home_controllers.dart';
+import 'package:clothshop/views/cart_screen/cart_screen.dart';
 import 'package:clothshop/views/categories_screen/categories_screen.dart';
 import 'package:clothshop/views/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -42,9 +43,7 @@ class Home extends StatelessWidget {
     var navBody = [
       const HomeScreen(),
       const CategoriesScreen(),
-      Container(
-        color: Colors.purple,
-      ),
+      const CartScreen(),
       Container(
         color: Colors.cyan,
       ),

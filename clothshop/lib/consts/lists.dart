@@ -34,6 +34,7 @@ const categoriesImages = [
   imgFc8,
   imgFc9
 ];
+// ignore: constant_identifier_names
 const ItemDetailsButtons = [
   video,
   reviews,
