@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
             scaffoldBackgroundColor: Colors.transparent,
             appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
             fontFamily: regular,
-            useMaterial3: true,
+            useMaterial3: false,
             iconTheme: const IconThemeData(color: darkFontGrey)),
         home: const SplashScreen());
   }
